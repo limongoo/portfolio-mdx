@@ -4,3 +4,4 @@ import bootstrap from "typography-theme-bootstrap";
 const typography = new Typography(bootstrap)
 
 export default typography
+export const rhythm = typography.rhythm
