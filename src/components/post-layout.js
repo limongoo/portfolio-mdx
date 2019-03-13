@@ -2,6 +2,7 @@ import React from "react"
 import Layout from '../components/layout'
 import { graphql } from "gatsby";
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import Projectlist from "../components/project-list"
 
 export default ({data}) => {
     return (
@@ -14,6 +15,8 @@ export default ({data}) => {
                 <div>
                   <MDXRenderer>{data.mdx.code.body}</MDXRenderer>
                 </div>
+
+                <Projectlist></Projectlist>
             </div>
         </Layout>
     )
