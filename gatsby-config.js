@@ -1,4 +1,7 @@
 module.exports = {
+    siteMetadata: {
+        title: `Portfolio Board`,
+    },
     plugins:[
         `gatsby-plugin-react-helmet`,
         {
@@ -30,5 +33,6 @@ module.exports = {
               }
             }
         },
+        
     ]
 }
