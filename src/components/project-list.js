@@ -7,7 +7,7 @@ export default () => (
     <StaticQuery
         query={graphql`
             query PageList{
-                allMdx(sort: { fields: [frontmatter___date], order: DESC }){
+                allMdx(sort: { fields: [frontmatter___date], order: ASC }){
                     edges{
                         node{
                             fields {
