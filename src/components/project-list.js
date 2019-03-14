@@ -25,7 +25,6 @@ export default () => (
             }
         `
         }  
-        
         render={data => (
             data.allMdx.edges.map(({ node }, index) => (
                 <Link to={node.fields.route} style={{textDecoration:'none', color:  'inherit'}} key={index}>
