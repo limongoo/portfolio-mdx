@@ -1,7 +1,13 @@
+/* css */
+@import 'reset.css';
+@import 'base.css';
+
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 5%;
+    padding: 5rem;
+
 }
 
 .header {
