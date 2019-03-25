@@ -4,24 +4,22 @@
 
 
 .container {
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: 0 auto;
     padding: 5rem;
-
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-link {
-    padding: 0 10px 0 0;
+.nav a {
+    padding: 0 0 0 2rem;
 }
 
-.nav a, .header a {
+.header a {
     text-decoration: none;
 }
 

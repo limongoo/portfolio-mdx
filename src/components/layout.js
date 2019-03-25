@@ -18,7 +18,7 @@ export default ({children})=> (
                 <div className="header">
                     <Link to={`/`}>{data.site.siteMetadata.title}</Link>
                     <div className="nav">
-                        <Link to={`/`} className="nav-link">Work</Link>
+                        <Link to={`/`}>Work</Link>
                         <Link to={`/info/`}>Info</Link>
                     </div> 
                 </div>

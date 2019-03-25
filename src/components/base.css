@@ -1,9 +1,8 @@
 html {font-size: 1em;}
 
 body {
-    /* background-image: linear-gradient(to right, #434343 0%, black 100%);     */
     background-color: #fff;
-    font-family: 'Work Sans', cursive;
+    font-family: 'Nunito', sans-serif;
     font-weight: 500;
     color: #222;
     letter-spacing: 1px;
@@ -42,8 +41,7 @@ a {
 }
 
 a:hover {
-    border-bottom: 2px solid #222;
-    padding-bottom: 5px;
+    color: rgb(19, 112, 77);
 }
 
 /* img {

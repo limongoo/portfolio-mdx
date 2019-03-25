@@ -7,8 +7,9 @@ export default function HTML(props) {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700|Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700|Material+Icons" rel="stylesheet" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         {props.headComponents}
       </head>
