@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `Portfolio Board`,
+        title: `Ivan Limongan — Work Board`,
     },
     plugins:[
         `gatsby-plugin-react-helmet`,
@@ -25,6 +25,8 @@ module.exports = {
             }
         },
         `gatsby-plugin-emotion`,
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
         {
             resolve: `gatsby-mdx`,
             options: {
