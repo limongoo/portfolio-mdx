@@ -42,9 +42,9 @@ export default () => (
                 return (
                 <Link to={node.fields.route} style={{textDecoration:'none', color:  'inherit'}} key={index}>
                     <div className="post-item">
-                    {node.frontmatter.image && (
-                        <Img fluid={node.frontmatter.image.childImageSharp.fluid} />
-                    )}
+                        {node.frontmatter.image && (
+                            <Img fluid={node.frontmatter.image.childImageSharp.fluid} />
+                        )}
                         <h3 className="post-title">{node.frontmatter.title}</h3>
                         {/* <p className="post-excerpt">{node.excerpt}</p> */}
                         {/* <p className="post-date">{node.frontmatter.date}</p> */}
